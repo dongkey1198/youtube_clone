@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  height: 4rem;
+  padding: 0.8em 1em;
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5em;
+}
+
+.img {
+  margin-right: 0.5em;
+}
+
+.title {
+  height: 120%;
+}
+
+.input {
+  flex-basis: 100%;
+  font-size: 1.2rem;
+  outline: none;
+  margin-right: 5px;
+}
+
+.button {
+  background-color: darkgrey;
+  border: 1px white solid;
+  transition: background-color 200ms ease-in;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: red;
+}
+
+.buttonImg {
+  height: 100%;
+  padding: 0.5em 0.2em;
+}
